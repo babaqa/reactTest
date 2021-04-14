@@ -1,0 +1,133 @@
+footer {
+    position          : absolute;
+    /* bottom            : 0; */
+    /* top            : 95px; */
+    /* width          : 95px; */
+    height            : 577px;
+    /* background     : rgb(134, 133, 133); */
+    /* display        : flex; */
+    /* justify-content: center; */
+    z-index           : 98;
+    width             : 100%;
+    text-align        : center;
+    padding-top       : 150px;
+}
+
+.footerLeftBlock {
+    position     : absolute;
+    bottom       : 71;
+    width        : calc(100% - 312px);
+    height       : 506px;
+    background   : rgba(173, 157, 114, 1);
+    margin-bottom: -137px;
+    z-index      : 50;
+}
+
+.footerBottomBlock {
+    position  : absolute;
+    bottom    : 0;
+    width     : 100%;
+    height    : 208px;
+    background: rgba(75, 75, 75, 1);
+    z-index   : 49;
+    text-align: center;
+}
+
+.footerBottomBlockText {
+    color        : rgba(255, 255, 255, 1);
+    width        : 100%;
+    margin-bottom: 24px;
+    font-family  : "Roboto";
+    font-weight  : 400;
+    font-size    : 18px;
+    position     : absolute;
+    bottom       : 0;
+}
+
+.footerRightSeal {
+    position: absolute;
+    right   : 95px;
+    top     : 15px;
+    filter  : contrast(0.7);
+    padding-top       : 150px;
+}
+
+.footerLogo {
+    /* position: absolute; */
+    /* right   : 95px; */
+    /* top     : 15px; */
+    margin: -57px 0 0 0;
+}
+
+.addrContainer {
+    width     : 60%;
+    height    : auto;
+    text-align: left;
+    padding   : 0 50px 0 50px;
+    min-width : 395px;
+}
+
+.footerFlexContainer {
+    display: flex;
+}
+
+.footerTitle {
+    width            : 100%;
+    font-family      : "Roboto";
+    font-size        : 62px;
+    font-weight      : 700;
+    color            : rgba(255, 255, 255, 1);
+    margin-bottom    : 0;
+    position         : relative;
+    /* left          : 80px; */
+    letter-spacing   : 15px;
+}
+
+.bottomLine {
+    width        : 100%;
+    background   : rgba(255, 255, 255, 1);
+    height       : 2px;
+    bottom       : 16px;
+    margin       : 0;
+    position     : relative;
+    /* left      : 80px; */
+}
+
+.footerText {
+    width            : 100%;
+    position         : relative;
+    /* left          : 80px; */
+    margin           : 0;
+    font-family      : "Roboto";
+    font-size        : 22px;
+    font-weight      : 400;
+    letter-spacing   : 5px;
+}
+
+.telContainer {
+    width     : 40%;
+    height    : auto;
+    text-align: left;
+    padding   : 0 50px 0 0;
+}
+
+.timeContainer {
+    width     : 60%;
+    height    : auto;
+    text-align: left;
+    padding   : 0 50px 0 50px;
+    min-width : 395px;
+}
+
+.faxContainer {
+    width     : 40%;
+    height    : auto;
+    text-align: left;
+    padding   : 0 50px 0 0;
+}
+
+.test {
+    /* min-height: 100%; */
+    height : 1000px;
+    padding: 195px 120px 0 120px;
+}

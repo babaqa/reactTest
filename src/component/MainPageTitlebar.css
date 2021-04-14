@@ -40,11 +40,12 @@
 
 html,
 body {
-    margin    : 0;
-    background: rgba(249, 249, 249, 1);
-    height    : 100%;
-    width     : 100%;
-    /* height : 2000px; */
+    margin        : 0;
+    /* background : rgba(255, 255, 255, 1); */
+    height        : 100%;
+    width         : 100%;
+    user-select   : none;
+    /* height     : 2000px; */
 }
 
 header {
@@ -268,7 +269,7 @@ footer {
     height    : auto;
     text-align: left;
     padding   : 0 50px 0 50px;
-    min-width: 395px;
+    min-width : 395px;
 }
 
 .footerFlexContainer {
@@ -320,7 +321,7 @@ footer {
     height    : auto;
     text-align: left;
     padding   : 0 50px 0 50px;
-    min-width: 395px;
+    min-width : 395px;
 }
 
 .faxContainer {
@@ -333,5 +334,9 @@ footer {
 .test {
     /* min-height: 100%; */
     height : 1000px;
-    padding: 95px 95px 0 0;
+    padding: 195px 120px 0 120px;
+}
+
+.mailIcon:hover {
+    cursor: pointer;
 }
