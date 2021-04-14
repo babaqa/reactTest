@@ -3,8 +3,6 @@ import './MainPageTitlebar.css';
 import logo from '../img/logo.svg';
 import mail from '../img/menu_nav_email.svg';
 import goTop from '../img/icon_go_top.svg';
-import seal from '../img/footer_right_seal.svg';
-import footerLogo from '../img/footer_logo.svg';
 import { useWindowSize } from '../SelfHooks/useWindowSize';
 
 export const MainPageTitlebar = (props) => {
@@ -46,10 +44,10 @@ export const MainPageTitlebar = (props) => {
                         </a>
                         <nav>
                             <div className="navitem">
-                                <a className="navitem__text" href="/books">單位簡介</a>
+                                <a className="navitem__text" href="/Unit">單位簡介</a>
                             </div>
                             <div className="navitem">
-                                <a className="navitem__text" href="##">成員介紹</a>
+                                <a className="navitem__text" href="/Member">成員介紹</a>
                             </div>
                             {/* <div className="navitem">
                                 <a className="navitem__text" href="##">檔案展</a>

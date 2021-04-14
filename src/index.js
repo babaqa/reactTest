@@ -7,6 +7,9 @@ import { MainPageTitlebar } from './component/MainPageTitlebar';
 import { Footer } from './component/Footer/Footer';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import { Index } from './page/Index/Index';
+import { Unit } from './page/Unit/Unit';
+import { Member } from './page/Member/Member';
+
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,8 +19,8 @@ ReactDOM.render(
       <div style={{ padding: "150px 100px 0" }}>
         <Switch>
           <Route path="/" exact component={Index} />
-          {/* <Route path="/books" component={Books} /> */}
-          {/* <Route path="/electronics" component={Electronics} /> */}
+          <Route path="/Unit" component={Unit} />
+          <Route path="/Member" component={Member} />
         </Switch>
       </div>
     </BrowserRouter>
